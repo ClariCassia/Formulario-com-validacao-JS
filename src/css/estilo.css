@@ -53,9 +53,13 @@ main {
     padding: 15px;
 }
 
-/* .form .valido {
-    border: blue solid 1px;
-} */
+.form .valido {
+    border: #00C22B solid 1px;
+}
+
+.form .inválido {
+    border: #F52E2E solid 1px;
+}
 
 .form button {
     background: #3CCC87;
