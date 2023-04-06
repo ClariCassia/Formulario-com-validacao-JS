@@ -37,14 +37,14 @@ main {
     color: #ffff;
 }
 
-.form {
+#form {
     min-height: 378px;
     border-radius: 2px;
     background: #FFFFFF;
     padding: 35px;
 }
 
-.form input,
+#form input,
 #mensagem {
     width: 100%;
     border: #000000 solid 1px;
@@ -53,15 +53,15 @@ main {
     padding: 15px;
 }
 
-.form .valido {
+#form .valido {
     border: #00C22B solid 1px;
 }
 
-.form .inválido {
+#form .inválido {
     border: #F52E2E solid 1px;
 }
 
-.form button {
+#form button {
     background: #3CCC87;
     width: 100%;
     border: 0;
