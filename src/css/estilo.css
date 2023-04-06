@@ -4,6 +4,8 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;    
+    font-size: 15px;
 }
 
 main {
@@ -25,37 +27,35 @@ main {
 .container .titulo {
     font-size: 20px;
     font-weight: 900;
+    color: #ffff;
 }
 
 .container .descricao {
-    font-size: 15px;
     font-weight: 400;
     margin-top: 11px;
     max-width: 300px;
+    color: #ffff;
 }
-
 
 .form {
     min-height: 378px;
-    border-radius: 2px;    
-    background: #FFFFFF;    
-    padding: 20px 22px;    
-    
+    border-radius: 2px;
+    background: #FFFFFF;
+    padding: 22px;
 }
 
-.form input {   
+.form input,
+#mensagem {
     width: 100%;
-    border: black   solid 1px;
+    border: #000000 solid 1px;
     border-radius: 5px;
     margin: 0 0 15px;
-    padding: 15px;   
-    font-size: 14px;
+    padding: 15px;
 }
 
- .form .valido{
+/* .form .valido {
     border: blue solid 1px;
-}
-
+} */
 
 .form button {
     background: #3CCC87;
@@ -63,20 +63,7 @@ main {
     border: 0;
     padding: 15px;
     color: #FFFFFF;
-    font-size: 14px;
     cursor: pointer;
     margin: 20px 0;
-}
-
-.form .mensagem {    
-    color: black;
-    font-size: 15px;
-    
-}
-
-.form #mensagem{
-    width: 100%;
-    border: black   solid 1px;
-    border-radius: 5px;
-    margin: 0 0 15px;
+    font-weight: 700;
 }

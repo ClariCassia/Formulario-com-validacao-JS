@@ -3,12 +3,7 @@
     padding: 0;
     border: none;
     outline: none;   
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    color: #ffff;
+    box-sizing: border-box;    
 }
 
-ul{
-    list-style: none;
-}
 
