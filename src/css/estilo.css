@@ -1,0 +1,82 @@
+body {
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 1440px;
+    height: 100vh;
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.container .titulo {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container .descricao {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 11px;
+    max-width: 300px;
+}
+
+
+.form {
+    min-height: 378px;
+    border-radius: 2px;    
+    background: #FFFFFF;    
+    padding: 20px 22px;    
+    
+}
+
+.form input {   
+    width: 100%;
+    border: black   solid 1px;
+    border-radius: 5px;
+    margin: 0 0 15px;
+    padding: 15px;   
+    font-size: 14px;
+}
+
+ .form .valido{
+    border: blue solid 1px;
+}
+
+
+.form button {
+    background: #3CCC87;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.form .mensagem {    
+    color: black;
+    font-size: 15px;
+    
+}
+
+.form #mensagem{
+    width: 100%;
+    border: black   solid 1px;
+    border-radius: 5px;
+    margin: 0 0 15px;
+}
