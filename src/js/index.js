@@ -10,7 +10,7 @@ function validaCampoVazio(inputs) {
   inputs.forEach((item) => {
     if (item.value === "") {
       const controleFormulario = item.parentElement;
-      const mensagemERRO = controleFormulario.querySelector(".msg-obrigatorio");
+      const mensagemERRO = controleFormulario.querySelector(".msg-campos-obrigatorio");
       mensagemERRO.classList.add("msg-obrigatorio-visible");
       item.classList.add("invalido");
     } else {

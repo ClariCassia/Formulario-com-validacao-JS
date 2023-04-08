@@ -29,29 +29,30 @@
         <form id="form" class="form" method="get">
             <div class="controle-formulario">
                 <input type="text" id="nome" placeholder="Nome Completo*">
-                <small class="msg-obrigatorio">
+                <small class="msg-campos-obrigatorio">
                     *campo obrigatório
                 </small>
             </div>
             <div class="controle-formulario">
                 <input type="email" id="email" placeholder="Email*">
-                <small class="msg-obrigatorio">
+                <small class="msg-campos-obrigatorio">
                     *campo obrigatório
                 </small>
             </div>
             <div class="controle-formulario">
                 <input type="tel" id="telefone" placeholder="Telefone*" onkeypress="return somenteNumeros(event)">
-                <small class="msg-obrigatorio">
+                <small class="msg-campos-obrigatorio">
                     *campo obrigatório
                 </small>
             </div>
             <div class="controle-formulario">
-                <textarea name="mensagem" id="mensagem" class="mensagem" cols="30" rows="10" placeholder="Mensagem*"></textarea>
-                <small class="msg-obrigatorio">
+                <textarea name="mensagem" id="mensagem" class="mensagem" cols="30" rows="10"
+                    placeholder="Mensagem*"></textarea>
+                <small class="msg-campos-obrigatorio">
                     *campo obrigatório
                 </small>
             </div>
-            <button >Entrar</button>
+            <button>Entrar</button>
         </form>
     </main>
     <script src="src/js/index.js"></script>
