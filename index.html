@@ -26,17 +26,25 @@
                 24h.
             </p>
         </section>
-        <form id="form" method="get">
-            <input type="text" id="nome" placeholder="Nome Completo*">
-            <!-- <p class="msg-obrigatorio">
-                *campo obrigatório
-            </p> -->
+        <form id="form" class="form" method="get">
+            <div class="controle-formulario">
+                <input type="text" id="nome" placeholder="Nome Completo*">
+                <small class="msg-obrigatorio">
+                    *campo obrigatório
+                </small>
+            </div>
             <input type="email" id="email" placeholder="Email*">
+            <small class="msg-obrigatorio">
+                *campo obrigatório
+            </small>
             <input type="tel" id="telefone" placeholder="Telefone*">
+            <small class="msg-obrigatorio">
+                *campo obrigatório
+            </small>
             <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem*"></textarea>
-            <p class="mensagem">
-                *campos obrigatórios
-            </p>
+            <small class="msg-obrigatorio">
+                *campo obrigatório
+            </small>
             <button>Entrar</button>
         </form>
     </main>
