@@ -36,7 +36,7 @@ function valiarInputs() {
   } else {
     validaCampoValido(mensagemUsuario);
   }
-  validaFormulario(formulario)
+//   validaFormulario(formulario)
 }
 
 function validaCampoInvalido(campo) {

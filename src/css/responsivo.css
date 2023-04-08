@@ -48,17 +48,17 @@
 @media (max-width: 360px) {
 
     .container .titulo {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .container .descricao {
         margin-top: 15px;
 
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .form {
-        padding: 18px;
+        padding: 15px;
     }
 
 }
