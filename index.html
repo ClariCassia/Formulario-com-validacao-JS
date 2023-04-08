@@ -40,7 +40,8 @@
                 </small>
             </div>
             <div class="controle-formulario">
-                <input type="tel" id="telefone" placeholder="Telefone*" onkeypress="return somenteNumeros(event)">
+                <input type="tel" id="telefone" placeholder="Telefone* (xx) xxxxx-xxxx" maxlength="11"
+                    onkeypress="return somenteNumeros(event)">
                 <small class="msg-campos-obrigatorio">
                     *campo obrigatório
                 </small>
@@ -53,7 +54,7 @@
                 </small>
             </div>
             <button>Entrar</button>
-        </form>
+        </form>        
     </main>
     <script src="src/js/index.js"></script>
 </body>

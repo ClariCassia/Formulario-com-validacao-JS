@@ -1,4 +1,4 @@
-<!-- # Formulario-com-validacao-JS
+# Formulario-com-validacao-JS
 
 ## Sumário
 
@@ -23,7 +23,7 @@ de "campo obrigatório"  aparece embaixo do campo que não foi preenchido. Caso 
 
 <br>
 
-<img src="src/imagens/gif.-desktop.gif" alt="gif tela desktop">
+<img src="src/imagens/formulario.desktop.gif" alt="">
 <br>
 <br>
 
@@ -32,14 +32,14 @@ de "campo obrigatório"  aparece embaixo do campo que não foi preenchido. Caso 
 <br>
 <br>
 
-<img src="src/imagens/gif.-tablet.gif" alt="gif tela tablet">
+<img src="src/imagens/formulario.tablet.gif" alt="">
 
 ## Layout mobile
 
 <br>
 <br>
 
-<img src="src/imagens/gif.-mobile.gif" alt="gif tela-mobile">
+<img src="src/imagens/formulario.mobile.gif" alt="">
 
 ## Tecnologias utilizadas
 
@@ -52,4 +52,4 @@ de "campo obrigatório"  aparece embaixo do campo que não foi preenchido. Caso 
 Neste projeto, utizando o JS pude colocar em prática a manipulação do DOM e de eventos como addEventListener para ouvir eventos e responder a eles de maneira adequada. Tambem pude criar validação de entrada no formulario, embora o foco principal do projeto tenha sido a funcionalidade, também coloquei em prática os conhecimentos no uso html semâmtico, flebox e mediaquare.
 ## Acesso a página
 
-Para ver o projeto pronto [clique aqui ](https://claricassia.github.io/Formulario-com-validacao-JS/) -->
+Para ver o projeto pronto [clique aqui ](https://claricassia.github.io/Formulario-com-validacao-JS/)
