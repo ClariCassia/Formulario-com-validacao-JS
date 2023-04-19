@@ -13,8 +13,10 @@ function validaCampoVazio(inputs) {
       const mensagemERRO = controleFormulario.querySelector(".msg-campos-obrigatorio");
       mensagemERRO.classList.add("msg-obrigatorio-visible");
       item.classList.add("invalido");
+      item.classList.remove("valido");
     } else {
       item.classList.add("valido");
+      item.classList.remove("invalido");
     }
   });
 }
