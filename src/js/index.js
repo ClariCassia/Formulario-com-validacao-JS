@@ -7,17 +7,17 @@ formulario.addEventListener("submit", function (event) {
 });
 
 function validaCampoVazio(inputs) {
-  inputs.forEach((item) => {
-    const controleFormulario = item.parentElement;
-    const mensagemERRO = controleFormulario.querySelector(".msg-campos-obrigatorio");
-    if (item.value === "") {
+  inputs.forEach((input) => {
+    const campoFormulario = input.parentElement;
+    const mensagemERRO = campoFormulario.querySelector(".msg-campos-obrigatorio");
+    if (input.value === "") {
       mensagemERRO.classList.add("msg-obrigatorio-visible");
-      item.classList.add("invalido");
-      item.classList.remove("valido");
+      input.classList.add("invalido");
+      input.classList.remove("valido");
     } else {
       mensagemERRO.classList.remove("msg-obrigatorio-visible");
-      item.classList.add("valido");
-      item.classList.remove("invalido");
+      input.classList.add("valido");
+      input.classList.remove("invalido");
     }
   });
 }
