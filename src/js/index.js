@@ -8,13 +8,14 @@ formulario.addEventListener("submit", function (event) {
 
 function validaCampoVazio(inputs) {
   inputs.forEach((item) => {
+    const controleFormulario = item.parentElement;
+    const mensagemERRO = controleFormulario.querySelector(".msg-campos-obrigatorio");
     if (item.value === "") {
-      const controleFormulario = item.parentElement;
-      const mensagemERRO = controleFormulario.querySelector(".msg-campos-obrigatorio");
       mensagemERRO.classList.add("msg-obrigatorio-visible");
       item.classList.add("invalido");
       item.classList.remove("valido");
     } else {
+      mensagemERRO.classList.remove("msg-obrigatorio-visible");
       item.classList.add("valido");
       item.classList.remove("invalido");
     }
