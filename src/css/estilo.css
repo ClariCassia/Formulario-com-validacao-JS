@@ -5,7 +5,8 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 15px;    
+    
 }
 
 main {
@@ -22,19 +23,19 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    color: #ffff; 
+       
 }
 
 .container .titulo {
-    font-size: 20px;
-    font-weight: 900;
-    color: #ffff;
+    font-size: 24px;
+    font-weight: 900;    
 }
 
 .container .descricao {
     font-weight: 400;
     margin-top: 11px;
-    max-width: 300px;
-    color: #ffff;
+    max-width: 300px;    
 }
 
 .form {
@@ -72,7 +73,7 @@ main {
 .form button {
     background: #3CCC87;
     width: 100%;
-    border: 0;
+    border: none;
     padding: 15px;
     color: #FFFFFF;
     cursor: pointer;
