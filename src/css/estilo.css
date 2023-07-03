@@ -5,8 +5,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;    
-    
+    font-size: 15px;       
 }
 
 main {
@@ -23,8 +22,7 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    color: #ffff; 
-       
+    color: #ffff;        
 }
 
 .container .titulo {
@@ -39,6 +37,7 @@ main {
 }
 
 .form {
+    max-width: 500px;
     min-height: 378px;
     border-radius: 2px;
     background: #FFFFFF;
